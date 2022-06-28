@@ -1,5 +1,5 @@
 {
-  "utilities": {
+  "Utilities": {
     "backpack": {
       "uncommon": {
         "Polymetallic Prefabricate ": 2,
@@ -14,10 +14,10 @@
         "Smart Mesh": 1,
         "Dustbloom": 1,
         "Titan Ore": 1
-      },
+      }
     }
   },
-  "armor": {
+  "Armor": {
     "helmet": {
       "uncommon": {
         "normal": {
@@ -33,7 +33,7 @@
           "Hardened Metals": 2,
           "Brightcap Mushroom": 2,
           "Spinal Base": 4
-        },
+        }
       },
       "rare": {
         "normal": {
@@ -49,28 +49,28 @@
           "Aluminum Scrap": 2,
           "Glowy Brightcap Mushroom": 2,
           "Rattler Skin": 2
-        },
+        }
       },
       "epic": {
         "normal": {
           "Radio Equipment": 5,
           "Hardened Bone Plate": 1
-        },
+        }
       },
       "exotic": {
         "normal": {
           "Print Resin": 6,
           "Pure Focus Crystal": 1,
           "Crusher Hide": 2
-        },
+        }
       },
       "legendary ": {
         "normal": {
           "Meteor Core": 6,
           "Pure Veltecite": 1,
           "Alpha Crusher Heart": 2
-        },
-      },
+        }
+      }
     },
     "shield": {
       "uncommon": {
@@ -87,7 +87,7 @@
           "Polymetallic Prefabricate ": 2,
           "Brightcap Mushroom": 2,
           "Spinal Base": 5
-        },
+        }
       },
       "rare": {
         "normal": {
@@ -104,22 +104,22 @@
           "Zero Systems CPU": 2,
           "Glowy Brightcap Mushroom": 2,
           "Rattler Skin": 5
-        },
+        }
       },
       "epic": {
         "normal": {
           "Smart Mesh": 3,
           "Titan Ore": 1,
           "Hardened Bone Plate": 3
-        },
+        }
       },
       "exotic": {
         "normal": {
           "Interactive Screen": 2,
           "Gyroscope": 1,
           "Crusher Hide": 1
-        },
-      },
-    },
+        }
+      }
+    }
   }
 }
