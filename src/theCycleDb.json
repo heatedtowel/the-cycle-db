@@ -1,0 +1,125 @@
+{
+  "utilities": {
+    "backpack": {
+      "uncommon": {
+        "Polymetallic Prefabricate ": 2,
+        "Altered Nickel": 2
+      },
+      "rare": {
+        "Textiles": 2,
+        "Pale Ivy Blossom": 1,
+        "Altered Nickel": 3
+      },
+      "epic": {
+        "Smart Mesh": 1,
+        "Dustbloom": 1,
+        "Titan Ore": 1
+      },
+    }
+  },
+  "armor": {
+    "helmet": {
+      "uncommon": {
+        "normal": {
+          "Hardened Metals": 2,
+          "Spinal Base": 5
+        },
+        "tactical": {
+          "Hardened Metals": 2,
+          "cables": 2,
+          "Spinal Base": 4
+        },
+        "restoration": {
+          "Hardened Metals": 2,
+          "Brightcap Mushroom": 2,
+          "Spinal Base": 4
+        },
+      },
+      "rare": {
+        "normal": {
+          "Aluminum Scrap": 2,
+          "Rattler Skin": 2
+        },
+        "tactical": {
+          "Aluminum Scrap": 2,
+          "Interactive Screen": 1,
+          "Rattler Skin": 2
+        },
+        "restoration": {
+          "Aluminum Scrap": 2,
+          "Glowy Brightcap Mushroom": 2,
+          "Rattler Skin": 2
+        },
+      },
+      "epic": {
+        "normal": {
+          "Radio Equipment": 5,
+          "Hardened Bone Plate": 1
+        },
+      },
+      "exotic": {
+        "normal": {
+          "Print Resin": 6,
+          "Pure Focus Crystal": 1,
+          "Crusher Hide": 2
+        },
+      },
+      "legendary ": {
+        "normal": {
+          "Meteor Core": 6,
+          "Pure Veltecite": 1,
+          "Alpha Crusher Heart": 2
+        },
+      },
+    },
+    "shield": {
+      "uncommon": {
+        "normal": {
+          "Polymetallic Prefabricate ": 2,
+          "Spinal Base": 5
+        },
+        "tactical": {
+          "Polymetallic Prefabricate ": 2,
+          "Waterweed Filament": 2,
+          "Spinal Base": 5
+        },
+        "restoration": {
+          "Polymetallic Prefabricate ": 2,
+          "Brightcap Mushroom": 2,
+          "Spinal Base": 5
+        },
+      },
+      "rare": {
+        "normal": {
+          "Zero Systems CPU": 2,
+          "Cloudy Veltecite": 2,
+          "Rattler Skin": 5
+        },
+        "tactical": {
+          "Zero Systems CPU": 2,
+          "Pale Ivy Blossom": 1,
+          "Rattler Skin": 5
+        },
+        "restoration": {
+          "Zero Systems CPU": 2,
+          "Glowy Brightcap Mushroom": 2,
+          "Rattler Skin": 5
+        },
+      },
+      "epic": {
+        "normal": {
+          "Smart Mesh": 3,
+          "Titan Ore": 1,
+          "Hardened Bone Plate": 3
+        },
+      },
+      "exotic": {
+        "normal": {
+          "Interactive Screen": 2,
+          "Gyroscope": 1,
+          "Crusher Hide": 1
+        },
+      },
+    },
+  }
+}
