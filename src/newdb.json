@@ -1,0 +1,183 @@
+{
+  "Utilities": {
+    "backpack": [
+      {
+        "rarity": "uncommon",
+        "image": "https://via.placeholder.com/350",
+        "craftingMaterials": {
+          "Polymetallic Prefabricate": 2,
+          "Altered Nickel": 2,
+          "K-Marks": 2700
+        }
+      },
+      {
+        "rarity": "rare",
+        "image": "https://via.placeholder.com/350",
+        "Crafting Materials": {
+          "Textiles": 2,
+          "Pale Ivy Blossom": 1,
+          "Altered Nickel": 3,
+          "K-Marks": 6100
+        }
+      },
+      {
+        "rarity": "epic",
+        "image": "https://via.placeholder.com/350",
+        "Crafting Materials": {
+          "Smart Mesh": 1,
+          "Dustbloom": 1,
+          "Titan Ore": 1,
+          "K-Marks": 12000
+        }
+      }
+    ]
+  },
+  "Armor": {
+    "helmet": {
+      "uncommon": {
+        "normal": {
+          "Hardened Metals": 2,
+          "Spinal Base": 5
+        },
+        "tactical": {
+          "Hardened Metals": 2,
+          "cables": 2,
+          "Spinal Base": 4
+        },
+        "restoration": {
+          "Hardened Metals": 2,
+          "Brightcap Mushroom": 2,
+          "Spinal Base": 4
+        }
+      },
+      "rare": {
+        "normal": {
+          "Aluminum Scrap": 2,
+          "Rattler Skin": 2
+        },
+        "tactical": {
+          "Aluminum Scrap": 2,
+          "Interactive Screen": 1,
+          "Rattler Skin": 2
+        },
+        "restoration": {
+          "Aluminum Scrap": 2,
+          "Glowy Brightcap Mushroom": 2,
+          "Rattler Skin": 2
+        }
+      },
+      "epic": {
+        "normal": {
+          "Radio Equipment": 5,
+          "Hardened Bone Plate": 1
+        }
+      },
+      "exotic": {
+        "normal": {
+          "Print Resin": 6,
+          "Pure Focus Crystal": 1,
+          "Crusher Hide": 2
+        }
+      },
+      "legendary ": {
+        "normal": {
+          "Meteor Core": 6,
+          "Pure Veltecite": 1,
+          "Alpha Crusher Heart": 2
+        }
+      }
+    },
+    "shield": {
+      "uncommon": {
+        "normal": {
+          "Polymetallic Prefabricate ": 2,
+          "Spinal Base": 5
+        },
+        "tactical": {
+          "Polymetallic Prefabricate ": 2,
+          "Waterweed Filament": 2,
+          "Spinal Base": 5
+        },
+        "restoration": {
+          "Polymetallic Prefabricate ": 2,
+          "Brightcap Mushroom": 2,
+          "Spinal Base": 5
+        }
+      },
+      "rare": {
+        "normal": {
+          "Zero Systems CPU": 2,
+          "Cloudy Veltecite": 2,
+          "Rattler Skin": 5
+        },
+        "tactical": {
+          "Zero Systems CPU": 2,
+          "Pale Ivy Blossom": 1,
+          "Rattler Skin": 5
+        },
+        "restoration": {
+          "Zero Systems CPU": 2,
+          "Glowy Brightcap Mushroom": 2,
+          "Rattler Skin": 5
+        }
+      },
+      "epic": {
+        "normal": {
+          "Smart Mesh": 3,
+          "Titan Ore": 1,
+          "Hardened Bone Plate": 3
+        }
+      },
+      "exotic": {
+        "normal": {
+          "Interactive Screen": 2,
+          "Gyroscope": 1,
+          "Crusher Hide": 1
+        }
+      }
+    }
+  },
+  "Mining": {
+    "Veltecite": {
+      "Spawn Rates": {
+        "Flawed": "63.94%",
+        "Cloudy": "26.37%",
+        "Clear": "7.91%",
+        "Pure": "1.45%",
+        "Heart": ".33%"
+      },
+      "Spawn Locations": {
+        "Waterfalls": 38,
+        "Lagoon": 30,
+        "Lake": 13,
+        "Swamp": 65,
+        "SE Uplink": 8,
+        "Water Facility": 12,
+        "Science Campus": 19
+      }
+    },
+    "Titan Ore": {
+      "Spawn Rates": {
+        "Brittle Titan Ore": "90%",
+        "Titan Ore": "10%"
+      },
+      "Spawn Locations": {
+        "Abandoned Mine": 27,
+        "Waterfalls": 4,
+        "East Caverns": 18,
+        "Dig Site": 66
+      }
+    },
+    "Focus Crystal": {
+      "Spawn Rates": {
+        "Focus Crystal": "90%",
+        "Pure Focus Crystal": "10%"
+      },
+      "Spawn Locations": {
+        "Jungle Top": 22,
+        "Crashed Ship": 21,
+        "Jungle Camp": 16
+      }
+    }
+  }
+}
