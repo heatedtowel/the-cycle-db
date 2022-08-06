@@ -15,15 +15,10 @@
 
 .main--container {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 2rem;
-}
-
-/* .item {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0fr 1fr;
   gap: 1rem;
-} */
+  margin: 3em;
+}
 
 .btn--container {
   display: flex;
@@ -35,14 +30,15 @@
 }
 
 .item--outer--container {
+  display: grid;
   padding: 1rem;
   border-radius: .5rem;
   background-color: rgba(128, 128, 128, 0.214);
 }
 
 .item--container {
-  margin: 2rem;
-  padding: 1rem;
+  width: max-content;
+  margin: .5rem;
   border-radius: .5rem;
   background-color: rgba(240, 248, 255, 0.053);
 }

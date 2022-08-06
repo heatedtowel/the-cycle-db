@@ -1,18 +1,16 @@
 {
   "Utilities": {
-    "backpack": [
-      {
-        "rarity": "uncommon",
-        "image": "https://via.placeholder.com/350",
+    "backpack": {
+      "uncommon": {
+        "image": "https://picsum.photos/200",
         "craftingMaterials": {
           "Polymetallic Prefabricate": 2,
           "Altered Nickel": 2,
           "K-Marks": 2700
         }
       },
-      {
-        "rarity": "rare",
-        "image": "https://via.placeholder.com/350",
+      "rare": {
+        "image": "https://picsum.photos/200",
         "Crafting Materials": {
           "Textiles": 2,
           "Pale Ivy Blossom": 1,
@@ -20,9 +18,8 @@
           "K-Marks": 6100
         }
       },
-      {
-        "rarity": "epic",
-        "image": "https://via.placeholder.com/350",
+      "epic": {
+        "image": "https://picsum.photos/200",
         "Crafting Materials": {
           "Smart Mesh": 1,
           "Dustbloom": 1,
@@ -30,7 +27,7 @@
           "K-Marks": 12000
         }
       }
-    ]
+    }
   },
   "Armor": {
     "helmet": {
