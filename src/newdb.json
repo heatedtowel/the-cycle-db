@@ -1,6 +1,6 @@
 {
   "Utilities": {
-    "backpack": {
+    "Backpack": {
       "uncommon": {
         "image": "https://picsum.photos/200",
         "craftingMaterials": {
@@ -30,7 +30,7 @@
     }
   },
   "Armor": {
-    "helmet": {
+    "Helmet": {
       "uncommon": {
         "normal": {
           "Hardened Metals": 2,
@@ -84,7 +84,7 @@
         }
       }
     },
-    "shield": {
+    "Shield": {
       "uncommon": {
         "normal": {
           "Polymetallic Prefabricate ": 2,

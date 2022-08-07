@@ -8,7 +8,7 @@ const OreSpawns = ({ Mining }) => {
       {Object.keys(Mining).map(ore =>
         <div className='ore--container'>
           <div className='ore--spawn--container'>
-            <h4 className='ore--name'>{ore}:</h4>
+            <h4 className='ore--name'>{ore}</h4>
             <div className='ore--rates--container'>
               {Object.keys(Mining[ore]["Spawn Rates"]).map(rate =>
                 <div className='ore--rates--inner--container'>
@@ -19,7 +19,10 @@ const OreSpawns = ({ Mining }) => {
             </div>
           </div>
           <div className='ore--location--container'>
-            <h4 className='ore--name'>Locations:</h4>
+            <div className='location--title--container'>
+              <h4 className='ore--location'>Location</h4>
+              <h4 className='ore--spawn'>Spawns</h4>
+            </div>
             <div className='ore--locations--container'>{Object.keys(Mining[ore]["Spawn Locations"]).map(location =>
               <div className='ore--locations--inner--container'>
                 <h5 className='ore--locations--name'>{location}</h5>

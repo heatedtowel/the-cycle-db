@@ -15,14 +15,14 @@
 
 .main--container {
   display: grid;
-  grid-template-columns: 0fr 1fr;
+  grid-template-columns: 1fr 3fr;
   gap: 1rem;
   margin: 3em;
 }
 
 .btn--container {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   width: max-content;
   justify-content: center;
   align-items: center;
@@ -36,9 +36,13 @@
   background-color: rgba(128, 128, 128, 0.214);
 }
 
+.item--inner--conainer {
+  display: ;
+}
+
 .item--container {
-  width: max-content;
-  margin: .5rem;
+  margin-top: 1rem;
+  padding: .5rem;
   border-radius: .5rem;
   background-color: rgba(240, 248, 255, 0.053);
 }
@@ -49,4 +53,34 @@
 
 .item--ammount {
   justify-self: start;
+}
+
+button {
+  cursor: pointer;
+  padding: .3rem;
+  margin: .2rem;
+  border-radius: .2rem;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border-bottom: .1rem solid rgb(141, 141, 141);
+}
+
+.materials--title {
+  margin-bottom: 1rem;
+  border-bottom: .1rem solid rgb(141, 141, 141);
+}
+
+.components--title {
+  justify-self: flex-start;
+}
+
+button[data-active=true] {
+  background-color: lightcyan;
+}
+
+.components--title {
+  justify-self: flex-start;
 }

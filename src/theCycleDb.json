@@ -1,8 +1,8 @@
 {
   "Utilities": {
-    "backpack": {
+    "Backpack": {
       "uncommon": {
-        "Polymetallic Prefabricate ": 2,
+        "Polymetallic ": 2,
         "Altered Nickel": 2
       },
       "rare": {
@@ -18,7 +18,7 @@
     }
   },
   "Armor": {
-    "helmet": {
+    "Helmet": {
       "uncommon": {
         "normal": {
           "Hardened Metals": 2,
@@ -72,7 +72,7 @@
         }
       }
     },
-    "shield": {
+    "Shield": {
       "uncommon": {
         "normal": {
           "Polymetallic Prefabricate ": 2,

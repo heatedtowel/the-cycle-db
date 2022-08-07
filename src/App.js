@@ -19,7 +19,7 @@ function App() {
     setArmorType(null)
   }
 
-  const armorRarityBtn = (value) => {
+  const categoryButton = (value) => {
     if (category === 'armor' && (value === 'epic' || value === 'exotic' || value === 'legendary')) {
       setArmorType('normal')
       setRarity(value)
@@ -35,12 +35,14 @@ function App() {
           <div className='item--outer--container'>
             <div>
               <div>
-                <h4>Category</h4>
                 <div className='btn--container'>
-                  {categories.map((category) =>
+                  {categories.map((categorybtn) =>
                     <button
-                      onClick={() => categoryChange(category)}
-                    >{category}
+                      className='categorybtn'
+                      data-active={category === categorybtn}
+                      onClick={() => categoryChange(categorybtn)}
+                    >
+                      {categorybtn}
                     </button>
                   )}
                 </div>
@@ -50,17 +52,37 @@ function App() {
                 <div>
                   <h4>{category}</h4>
                   <div className='btn--container'>
-                    {category && Object.keys(newdb[category]).map((value) =>
-                      <button onClick={() => setArmorPiece(value)}>{value}</button>)}
+                    <select name="category" id="category-select" onChange={(e) => setArmorPiece(e.target.value)}>
+                      <option value="">--Please choose an option--</option>
+                      {category && Object.keys(newdb[category]).map((value) =>
+                        <option
+                          value={value}
+                        >{value}
+                        </option>
+                      )}
+                    </select>
                   </div>
                 </div>
               }
+
+
+
+
+
 
               {(category && armorPiece) &&
                 <div>
                   <h4>Rarity</h4>
                   <div className='btn--container'>
-                    {armorPiece && Object.keys(newdb[category][armorPiece]).map((value) => <button onClick={() => armorRarityBtn(value)}>{value}</button>)}
+                    <select name="category" id="category-select" onChange={(e) => categoryButton(e.target.value)}>
+                      <option value="">--Please choose an option--</option>
+                      {armorPiece && Object.keys(newdb[category][armorPiece]).map((value) =>
+                        <option
+                          value={value}
+                        >{value}
+                        </option>
+                      )}
+                    </select>
                   </div>
                 </div>
               }
@@ -69,32 +91,47 @@ function App() {
                 <div>
                   <h4>Armor Type</h4>
                   <div className='btn--container'>
-                    {(armorPiece && rarity) && Object.keys(cycleDB[category][armorPiece][rarity]).map((value) => <button onClick={() => setArmorType(value)
-                    }>{value}</button>)}
+                    <select name="category" id="category-select" onChange={(e) => setArmorType(e.target.value)}>
+                      <option value="">--Please choose an option--</option>
+                      {(armorPiece && rarity) && Object.keys(cycleDB[category][armorPiece][rarity]).map((value) =>
+                        // <button
+                        //   data-active={armorType === value}
+                        //   onClick={() => setArmorType(value)
+                        //   }>{value}</button>
+                        <option
+                          value={value}
+                        >{value}
+                        </option>
+                      )}
+                    </select>
                   </div>
                 </div>
               }
 
               {(category && armorPiece && armorType && rarity) &&
                 <div className='item--container'>
-                  <h2>Materials Needed</h2>
+                  <h3 className='materials--title'>Materials</h3>
                   {Object.keys(cycleDB[category][armorPiece][rarity][armorType]).map(components =>
                     <div className='item'>
-                      <h4>{components}: {cycleDB[category][armorPiece][rarity][armorType][components]}</h4>
+                      <h5 className='components--title'>{components}</h5>
+                      <h5>{cycleDB[category][armorPiece][rarity][armorType][components]}</h5>
                     </div>
                   )}
                 </div>
               }
             </div>
-            {(category && armorPiece === 'backpack' && rarity) &&
+            {(category && armorPiece === 'Backpack' && rarity) &&
               <div className='item--container'>
                 <img src={newdb[category][armorPiece][rarity]["image"]} alt="" />
                 <h3>Materials Needed</h3>
+                {/* <div className='item--inner--conainer'> */}
                 {Object.keys(cycleDB[category][armorPiece][rarity]).map(components =>
                   <div className='item'>
-                    <h4>{components}: {cycleDB[category][armorPiece][rarity][components]}</h4>
+                    <h4>{components}</h4>
+                    <h4>{cycleDB[category][armorPiece][rarity][components]}</h4>
                   </div>
                 )}
+                {/* </div> */}
               </div>
             }
           </div>
