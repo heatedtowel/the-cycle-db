@@ -144,13 +144,13 @@
         "Heart": ".33%"
       },
       "Spawn Locations": {
+        "Swamp": 65,
         "Waterfalls": 38,
         "Lagoon": 30,
+        "Science Campus": 19,
         "Lake": 13,
-        "Swamp": 65,
-        "SE Uplink": 8,
         "Water Facility": 12,
-        "Science Campus": 19
+        "SE Uplink": 8
       }
     },
     "Titan Ore": {
@@ -159,10 +159,10 @@
         "Titan Ore": "10%"
       },
       "Spawn Locations": {
+        "Dig Site": 66,
         "Abandoned Mine": 27,
-        "Waterfalls": 4,
         "East Caverns": 18,
-        "Dig Site": 66
+        "Waterfalls": 4
       }
     },
     "Focus Crystal": {
@@ -171,7 +171,7 @@
         "Pure Focus Crystal": "10%"
       },
       "Spawn Locations": {
-        "Jungle Top": 22,
+        "North Jungle": 22,
         "Crashed Ship": 21,
         "Jungle Camp": 16
       }
