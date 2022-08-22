@@ -155,7 +155,7 @@
     },
     "Titan Ore": {
       "Spawn Rates": {
-        "Brittle Titan Ore": "90%",
+        "Brittle": "90%",
         "Titan Ore": "10%"
       },
       "Spawn Locations": {
@@ -167,8 +167,8 @@
     },
     "Focus Crystal": {
       "Spawn Rates": {
-        "Focus Crystal": "90%",
-        "Pure Focus Crystal": "10%"
+        "Regular": "90%",
+        "Pure": "10%"
       },
       "Spawn Locations": {
         "North Jungle": 22,

@@ -1,5 +1,6 @@
 .ore--outer--container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   border-radius: 0.5rem;
   padding: 1rem;
@@ -50,6 +51,7 @@
 
 .location--title--container {
   display: flex;
+  gap: 1rem;
   justify-content: space-between;
   border-bottom: .1rem solid rgb(141, 141, 141);
 }
